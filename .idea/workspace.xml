@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/10. Extract Unique Words.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07. Population in Towns.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07. Population in Towns.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="700">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -84,8 +86,28 @@
       <file leaf-file-name="08. City Markets.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1100">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09. Lowest Prices in Cities.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-343">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10. Extract Unique Words.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/10. Extract Unique Words.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -93,28 +115,6 @@
       </file>
       <file leaf-file-name="07. Treasure Locator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09. Escaping.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/09. Escaping.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <marker date="1516656070126" expanded="true" signature="935:946" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01. Split a String with a Delimiter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/09. Strings and Regular Expressions/01. Split a String with a Delimiter.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -137,10 +137,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>allWords</find>
+      <find>sentance</find>
     </findStrings>
     <replaceStrings>
       <replace>map</replace>
       <replace>sortedWords</replace>
+      <replace>data</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -149,8 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/06. Process Odd Numbers.js" />
-        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/07. Smallest Two Numbers.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/08. Biggest Element.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/09. Diagonal Sums.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/10. Equal Neighbors.js" />
@@ -200,6 +200,8 @@
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js" />
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js" />
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/10. Extract Unique Words.js" />
       </list>
     </option>
   </component>
@@ -296,26 +298,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.07. Population in Towns.js">
-    <configuration name="04. Sum by Town.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="04. Sum by Town.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
-    <configuration name="05. Count Words in a Text.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="05. Count Words in a Text.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+  <component name="RunManager" selected="Node.js.10. Extract Unique Words.js">
     <configuration name="06. Count Words with Maps.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="06. Count Words with Maps.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <configuration name="07. Population in Towns.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="07. Population in Towns.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
-    <configuration name="asd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="asd.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="08. City Markets.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="08. City Markets.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="09. Lowest Prices in Cities.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="09. Lowest Prices in Cities.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="10. Extract Unique Words.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="10. Extract Unique Words.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.asd.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.08. City Markets.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.09. Lowest Prices in Cities.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.10. Extract Unique Words.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.asd.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.10. Extract Unique Words.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.09. Lowest Prices in Cities.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.08. City Markets.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +350,7 @@
       <workItem from="1516628446149" duration="113000" />
       <workItem from="1516628569501" duration="10158000" />
       <workItem from="1516696696368" duration="6972000" />
-      <workItem from="1516711374615" duration="10225000" />
+      <workItem from="1516711374615" duration="12998000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1516744324817</created>
@@ -357,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516744324817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update files">
+      <created>1516744382600</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516744382600</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117044000" />
+    <option name="totallyTimeSpent" value="119817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2182" extended-state="6" />
@@ -477,8 +486,20 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/10. Extract Unique Words.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="123" />
+      <option name="time" value="126" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -487,8 +508,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/02. Print every N-th Element from an Array.js" />
-    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/03. Add and Remove Elements.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/05. Extract Increasing Subsequence from Array.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/01. Print Array with Given Delimiter.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/04. Rotate Array.js" />
@@ -615,18 +634,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js">
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="700">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js">
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="1100">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/10. Extract Unique Words.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
