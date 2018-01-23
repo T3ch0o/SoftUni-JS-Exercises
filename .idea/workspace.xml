@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="01. Towns to JSON.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/01. Towns to JSON.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="708">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="02. Score to HTML.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/02. Score to HTML.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!block;n#htmlEscape#0;n#!!block;n#scoreToHTML#0" expanded="false" />
+                <marker date="1516712917602" expanded="true" signature="469:680" ph="..." />
+                <marker date="1516712917602" expanded="true" signature="473:680" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04. Sum by Town.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/04. Sum by Town.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05. Count Words in a Text.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/05. Count Words in a Text.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06. Count Words with Maps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07. Treasure Locator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09. Escaping.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/09. Escaping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <marker date="1516656070126" expanded="true" signature="935:946" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01. Split a String with a Delimiter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/09. Strings and Regular Expressions/01. Split a String with a Delimiter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>allWords</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>map</replace>
+      <replace>sortedWords</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/04. First and Last K Numbers.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/05. Last K Numbers Sequence.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/06. Process Odd Numbers.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/07. Smallest Two Numbers.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/08. Biggest Element.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/09. Diagonal Sums.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/10. Equal Neighbors.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/01. Print Array with Given Delimiter.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/02. Print every N-th Element from an Array.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/04. Rotate Array.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/03. Add and Remove Elements.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/05. Extract Increasing Subsequence from Array.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/06. Sort Array.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/07. Magic Matrices.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/08. Spiral Matrix.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/10. Orbit.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/09. Diagonal Attack.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/01. Print Letters.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/02. Concatenate and Reverse.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/03. Count Occurences.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/05. Aggregate Table.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/06. Restaurant Bill.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/07. Usernames.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/04. Extract Text.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/08. Censorship.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/09. Escaping.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/10. Match All Words.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/11. Email Validation.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/12. Expression Split.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/13. Match the Dates.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/14. Employee Data.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/15. Form Filler.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/16. Match Multiplication.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/01. Split a String with a Delimiter.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/02. Repeat a String N Times.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/03. Starts With.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/04. Ends With.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/05. Capitalize the Words.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/06. Capture the Numbers.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/07. Find Variable Names in Sentences.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/08. Word Occurences.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/09. Extract Links.js" />
+        <option value="$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/10. Secret Data.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/01. Towns to JSON.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/02. Score to HTML.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/03. JSON to HTML Table.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/04. Sum by Town.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/05. Count Words in a Text.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/asd.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="2170" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="10. Lab - JavaScript Objects and Assoc Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/01. Towns to JSON.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\JavaScript\JavaScript Fundamentals" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.06. Count Words with Maps.js">
+    <configuration name="03. JSON to HTML Table.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="03. JSON to HTML Table.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="04. Sum by Town.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="04. Sum by Town.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="05. Count Words in a Text.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="05. Count Words in a Text.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="06. Count Words with Maps.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="06. Count Words with Maps.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="asd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="asd.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.03. JSON to HTML Table.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.asd.js" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.asd.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.03. JSON to HTML Table.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="" />
+      <created>1516011671127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516011671127</updated>
+      <workItem from="1516011672474" duration="12530000" />
+      <workItem from="1516043762628" duration="1334000" />
+      <workItem from="1516102426776" duration="14493000" />
+      <workItem from="1516187531126" duration="2507000" />
+      <workItem from="1516191533826" duration="7118000" />
+      <workItem from="1516213247445" duration="4206000" />
+      <workItem from="1516267554632" duration="2407000" />
+      <workItem from="1516269972300" duration="4481000" />
+      <workItem from="1516274628584" duration="3188000" />
+      <workItem from="1516279905697" duration="7839000" />
+      <workItem from="1516357193692" duration="11118000" />
+      <workItem from="1516544812522" duration="41000" />
+      <workItem from="1516544884615" duration="18314000" />
+      <workItem from="1516628446149" duration="113000" />
+      <workItem from="1516628569501" duration="10158000" />
+      <workItem from="1516696696368" duration="6972000" />
+      <workItem from="1516711374615" duration="7009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="113828000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="3862" height="2182" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19454095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/Expressions, Conditional Statements and Loops/19. Quadratic Equation.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/04. Functions and Arrow Functions/03. Palindrome.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/02. Control-Flow Logic/06. Cone.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/04. First and Last K Numbers.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/05. Last K Numbers Sequence.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/08. Biggest Element.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/06. Sort Array.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/10. Orbit.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/02. Concatenate and Reverse.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/13. Match the Dates.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/05. Capitalize the Words.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/06. Capture the Numbers.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/07. Find Variable Names in Sentences.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/04. Sum by Town.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="122" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="arr" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/09. Diagonal Sums.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/10. Equal Neighbors.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/02. Print every N-th Element from an Array.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/03. Add and Remove Elements.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/05. Extract Increasing Subsequence from Array.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/01. Print Array with Given Delimiter.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/04. Rotate Array.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/06. Lab - Arrays and Matrices/01. Sum First Last.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/06. Sort Array.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/07. Magic Matrices.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/08. Spiral Matrix.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/10. Orbit.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/09. Diagonal Attack.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/05. Functions and Arrow Functions/08. Trip Length.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/01. Print Letters.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/06. Restaurant Bill.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/07. Usernames.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/08. Censorship.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/09. Escaping.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/10. Match All Words.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/02. Concatenate and Reverse.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/03. Count Occurences.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/05. Aggregate Table.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/04. Extract Text.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/12. Expression Split.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/11. Email Validation.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/13. Match the Dates.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/14. Employee Data.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/15. Form Filler.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/16. Match Multiplication.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/01. Split a String with a Delimiter.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/02. Repeat a String N Times.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/03. Starts With.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/04. Ends With.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/05. Capitalize the Words.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/06. Capture the Numbers.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/07. Find Variable Names in Sentences.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/08. Word Occurences.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/09. Extract Links.js" />
+    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/09. Strings and Regular Expressions/10. Secret Data.js" />
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/09. Strings and Regular Expressions/01. Split a String with a Delimiter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/08. Lab - Strings and Regular Expressions/09. Escaping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1516656070126" expanded="true" signature="935:946" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/01. Towns to JSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/02. Score to HTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#htmlEscape#0;n#!!block;n#scoreToHTML#0" expanded="false" />
+            <marker date="1516712917602" expanded="true" signature="469:680" ph="..." />
+            <marker date="1516712917602" expanded="true" signature="473:680" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/03. JSON to HTML Table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#htmlEscape#0;n#!!block;n#JSONToHTML#0" expanded="false" />
+            <marker date="1516714615085" expanded="true" signature="578:809" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/04. Sum by Town.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/asd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/05. Count Words in a Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
