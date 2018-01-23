@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="" />
+    <list default="true" id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05. Count Words in a Text.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05. Count Words in a Text.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/05. Count Words in a Text.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
@@ -62,7 +65,27 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+              <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="07. Population in Towns.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08. City Markets.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,11 +143,12 @@
       <replace>sortedWords</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/04. First and Last K Numbers.js" />
-        <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/05. Last K Numbers Sequence.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/06. Process Odd Numbers.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/07. Smallest Two Numbers.js" />
         <option value="$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/08. Biggest Element.js" />
@@ -174,6 +198,8 @@
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/asd.js" />
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js" />
         <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js" />
+        <option value="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js" />
       </list>
     </option>
   </component>
@@ -189,10 +215,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="2170" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -267,26 +296,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.06. Count Words with Maps.js">
-    <configuration name="03. JSON to HTML Table.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="03. JSON to HTML Table.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+  <component name="RunManager" selected="Node.js.07. Population in Towns.js">
     <configuration name="04. Sum by Town.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="04. Sum by Town.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <configuration name="05. Count Words in a Text.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="05. Count Words in a Text.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <configuration name="06. Count Words with Maps.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="06. Count Words with Maps.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
+    <configuration name="07. Population in Towns.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="07. Population in Towns.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <configuration name="asd.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="asd.js" working-dir="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.03. JSON to HTML Table.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.asd.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.asd.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.asd.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.03. JSON to HTML Table.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.07. Population in Towns.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.06. Count Words with Maps.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.asd.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.05. Count Words in a Text.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.04. Sum by Town.js" />
       </list>
     </recent_temporary>
   </component>
@@ -319,26 +348,26 @@
       <workItem from="1516628446149" duration="113000" />
       <workItem from="1516628569501" duration="10158000" />
       <workItem from="1516696696368" duration="6972000" />
-      <workItem from="1516711374615" duration="7009000" />
+      <workItem from="1516711374615" duration="8863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113828000" />
+    <option name="totallyTimeSpent" value="115682000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2182" extended-state="7" />
+    <frame x="-11" y="-11" width="3862" height="2182" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19454095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.194334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3995037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4000994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -430,8 +459,14 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="122" />
+      <option name="time" value="123" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -440,8 +475,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/09. Diagonal Sums.js" />
-    <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/Lab - Arrays and Matrices/10. Equal Neighbors.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/02. Print every N-th Element from an Array.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/03. Add and Remove Elements.js" />
     <entry file="file://$PROJECT_DIR$/JavaScript Fundamentals/07. Arrays and Matrices/05. Extract Increasing Subsequence from Array.js" />
@@ -546,14 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="6" column="52" lean-forward="false" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/05. Functions and Arrow Functions/07. Treasure Locator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -566,6 +591,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/06. Count Words with Maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="6" column="56" lean-forward="false" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/08. City Markets.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/07. Population in Towns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding />
         </state>
       </provider>
