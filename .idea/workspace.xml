@@ -258,6 +258,13 @@
               <item name="JS Core" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
+              <item name="01. Intro to JavaScript" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -342,7 +349,7 @@
       <workItem from="1516628569501" duration="10158000" />
       <workItem from="1516696696368" duration="6972000" />
       <workItem from="1516711374615" duration="13636000" />
-      <workItem from="1516792878526" duration="14923000" />
+      <workItem from="1516792878526" duration="14989000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1516744324817</created>
@@ -379,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516829856714</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Exercises Documents">
+      <created>1516830274483</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1516830274483</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135378000" />
+    <option name="totallyTimeSpent" value="135444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2182" extended-state="6" />
@@ -418,7 +432,8 @@
     <MESSAGE value="update files" />
     <MESSAGE value="base files" />
     <MESSAGE value="Added Objects and Associative Arrays Exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Objects and Associative Arrays Exercises" />
+    <MESSAGE value="Add Exercises Documents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Exercises Documents" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
