@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f93968-a0b8-43d9-9678-2ee4d391ec9b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/06. System Components.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/07. Usernames.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/08. Unique Sequences.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="625">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="1" />
+              <caret line="25" column="1" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/04. Store Catalogue.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="720">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -53,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/05. Auto-Engineering Company.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1050">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/03. Cappy Juice.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1056">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +79,8 @@
       <file leaf-file-name="06. System Components.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/06. System Components.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1488">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="768">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -93,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/08. Unique Sequences.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="559">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/02. JSON's Table.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -261,13 +258,6 @@
               <item name="JS Core" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaScript" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript Fundamentals" type="462c0819:PsiDirectoryNode" />
-              <item name="11. JavaScript Objects and Assoc Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -352,7 +342,7 @@
       <workItem from="1516628569501" duration="10158000" />
       <workItem from="1516696696368" duration="6972000" />
       <workItem from="1516711374615" duration="13636000" />
-      <workItem from="1516792878526" duration="14552000" />
+      <workItem from="1516792878526" duration="14923000" />
     </task>
     <task id="LOCAL-00001" summary="update files">
       <created>1516744324817</created>
@@ -382,17 +372,23 @@
       <option name="project" value="LOCAL" />
       <updated>1516801070607</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Objects and Associative Arrays Exercises">
+      <created>1516829856714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1516829856714</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135007000" />
+    <option name="totallyTimeSpent" value="135378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="3862" height="2182" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13671875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.194334" sideWeight="0.50104165" order="7" side_tool="true" content_ui="tabs" />
@@ -684,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/10. Lab - JavaScript Objects and Assoc Arrays/09. Lowest Prices in Cities.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="1" />
+          <caret line="25" column="1" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="25" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -700,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/02. JSON's Table.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -708,7 +704,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/04. Store Catalogue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -716,7 +712,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/03. Cappy Juice.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -724,7 +720,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/05. Auto-Engineering Company.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -732,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/08. Unique Sequences.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -747,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JavaScript Fundamentals/11. JavaScript Objects and Assoc Arrays/06. System Components.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="768">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
