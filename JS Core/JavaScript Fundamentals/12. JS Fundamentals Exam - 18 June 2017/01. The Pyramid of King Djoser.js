@@ -29,7 +29,7 @@ function pyramidOfKingDjoser(base, increment) {
         let stoneSum = base ** 2;
         stone.push(stoneSum);
 
-        if (stepsCount % 5 == 0) {
+        if (stepsCount % 5 === 0) {
             let lapisSum = baseSum - (base ** 2);
             lapisLazuli.push(lapisSum);
 
