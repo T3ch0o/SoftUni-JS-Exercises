@@ -1,23 +1,15 @@
 function jansNotation(input) {
     function calculator(a, b, operator) {
-        let sum = 0;
-
         switch (operator) {
             case '+':
-                sum += a + b;
-                break;
+                return a + b;
             case '-':
-                sum += a - b;
-                break;
+                return a - b;
             case '*':
-                sum += a * b;
-                break;
+                return a * b;
             case '/':
-                sum += a / b;
-                break;
+                return a / b;
         }
-
-        return sum;
     }
 
     let numbers = [];
@@ -48,8 +40,4 @@ function jansNotation(input) {
     console.log(numbers[0]);
 }
 
-jansNotation([5,
-    -1,
-        33]
-
-);
+jansNotation([5, -1, 33]);
