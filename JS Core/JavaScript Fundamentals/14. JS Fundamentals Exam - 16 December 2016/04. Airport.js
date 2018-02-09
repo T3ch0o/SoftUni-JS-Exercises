@@ -31,6 +31,7 @@ function airport(input) {
             port.get(town).departures += ppl;
         }
     }
+
     console.log("Planes left:");
     [...planes].sort((p1, p2) => p1.localeCompare(p2)).forEach(p => console.log(`- ${p}`));
     [...port].sort((t1, t2) => {
