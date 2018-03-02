@@ -6,5 +6,5 @@
     let cross = (vec1, vec2) => vec1[0] * vec2[1] - vec1[1] * vec2[0];
 
     return {add, multiply, length, dot, cross};
-})().add([1,1],[1,0]);
+})().add([1,1],[1, 0]);
 
