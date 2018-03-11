@@ -98,5 +98,5 @@ function elemelons() {
         Earthmelon,
         Airmelon,
         Melolemonmelon
-    }
+    };
 }
