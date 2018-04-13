@@ -1,0 +1,22 @@
+{{> header}}
+
+<div class="content">
+    {{> navigation}}
+
+    <section id="viewComments">
+        <div class="post">
+            {{> detailsPost}}
+            <div class="clear"></div>
+        </div>
+        <div class="post post-content">
+            {{> commentForm}}
+        </div>
+        {{#each comments}}
+            {{> comment}}
+            {{else}}
+            <p>No comments in database!</p>
+        {{/each}}
+    </section>
+</div>
+
+{{> footer}}
