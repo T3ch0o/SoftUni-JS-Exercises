@@ -3,7 +3,8 @@ const mimeTypes = {
     '.css': 'text/css',
     '.js': 'application/javascript',
     '.html': 'text/html',
-    '.ico': 'image/x-icon'
+    '.ico': 'image/x-icon',
+    '.png': 'image/png'
 };
 
 function getContentType(url) {

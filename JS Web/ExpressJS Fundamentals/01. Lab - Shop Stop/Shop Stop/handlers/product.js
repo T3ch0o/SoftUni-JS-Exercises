@@ -1,6 +1,7 @@
 const database = require('../config/database');
 const fs = require('fs');
-const qs = require('querystring');
+const multiparty = require('multiparty');
+const shortid = require('shortid');
 
 module.exports = (req, res) => {
     if (req.pathname === '/product/add' && req.method === 'GET') {
@@ -23,24 +24,52 @@ module.exports = (req, res) => {
             res.write(data);
             res.end();
 
-        })
-    } else if (req.pathname === '/product/add' && req.method === 'POST') {
-        let dataString = '';
-
-        req.on('data', function(data) {
-            dataString += data;
         });
+    } else if (req.pathname === '/product/add' && req.method === 'POST') {
+        const form = new multiparty.Form();
+        let product = {};
 
-        req.on('end', function() {
-            let product = qs.parse(dataString);
+        form.on('part', function(part) {
+            if (part.filename) {
+                let dataString = '';
+
+                part.setEncoding('binary');
+                part.on('data', function(data) {
+                    dataString += data;
+                });
+                part.on('end', function() {
+                    const fileName = shortid.generate() + '.png';
+                    const filePath = `/content/images/${fileName}`;
+
+                    product.image = filePath;
+
+                    fs.writeFile(`.${filePath}`, dataString, {encoding: 'ascii'}, function(err) {
+                        if (err) {
+                            console.log(err);
+                            return;
+                        }
+                    });
+                });
+            } else {
+                part.setEncoding('utf8');
+                let field = '';
+                part.on('data', function(data) {
+                    field += data;
+                });
+                part.on('end', function() {
+                    product[part.name] = field;
+                });
+            }
+        });
+        form.on('close', function() {
             database.products.add(product);
-
             res.writeHead(302, {
                 Location: '/'
             });
-
             res.end();
-        })
+        });
+
+        form.parse(req);
     } else {
         return true;
     }
