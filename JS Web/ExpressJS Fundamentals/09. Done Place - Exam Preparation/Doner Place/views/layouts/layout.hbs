@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doner Place</title>
+    <link href="/static/css/site.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <header>
+        {{#if user}}
+        <span class="logo">Doner  Place</span>
+        <span class="greeting">Welcome, {{user.username}}! | <a href="/user/logout">[logout]</a></span>
+        {{/if}}
+        <ul class="menu">
+            <li><a class="button" href="/">Home</a></li>
+            {{#if user}}
+                {{#if user.roles}}
+                    <li><a class="button" href="/product/add">Craete Product</a></li>
+                    <li><a class="button" href="/order-status/admin">Order Status [Admin]</a></li>
+                {{/if}}
+            <li><a class="button" href="/order-status">Order Status</a></li>
+            {{else}}
+            <li><a class="button" href="/user/login">Login</a></li>
+            <li><a class="button" href="/user/register">Register</a></li>
+            {{/if}}
+        </ul>
+    </header>
+    <main>
+        {{#if error}}
+            <h2>{{error}}</h2>
+        {{/if}}
+        {{{body}}}
+    </main>
+    <footer>Doner Place &copy; 2017</footer>
+</div>
+</body>
+</html>
