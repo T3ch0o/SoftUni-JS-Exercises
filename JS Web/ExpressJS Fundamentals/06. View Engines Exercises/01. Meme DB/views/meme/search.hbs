@@ -1,0 +1,9 @@
+<h1>Search Genre memes</h1>
+<form action="/searchMeme" method="POST">
+    <select name="genreSelect" id="genreSelect">
+        {{#each genres}}
+            <option>{{this.genreName}}</option>
+        {{/each}}
+    </select>
+    <input type="submit" value="Submit">
+</form>
