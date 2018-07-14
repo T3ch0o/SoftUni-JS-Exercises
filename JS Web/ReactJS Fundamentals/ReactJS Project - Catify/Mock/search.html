@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a class="nav-image" href="#"><img src="./images/Catify_Logo_White.png" alt=""></a>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./download.html">download</a></li>
+            <li><a href="./login.html">login</a></li>
+            <li><a href="./register.html">register</a></li>
+            <li><a href="./playlist.html">web player</a></li>
+            <li role="separator" class="divider">|</li>
+            <li><a href="./playlist.html"><i class="fa fa-user-o" aria-hidden="true"></i> profile</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="web-player">
+        <section class="side-nav">
+            <nav>
+                <ul>
+                    <li><a href="./search.html"><i class="fa fa-search" aria-hidden="true"></i> search</a></li>
+                    <li><a href="./playlist.html" class="active"><i class="fa fa-play" aria-hidden="true"></i> all playlists</a></li>
+                    <li><a href="./your-library.html"><i class="fa fa-book" aria-hidden="true"></i> your library</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="content-container">
+            <div class="player-playlist">
+                <div class="search">
+                    <label for="search">Search for a Playlist</label>
+                    <input type="text" id="search" placeholder="Start typing...">
+                </div>
+                <div class="heading">
+                    <h1>All Searches theknd</h1>
+                </div>
+                <section class="playlist-container">
+                    <ul>
+                        <li class="playlist">
+                            <a class="current-playlist" href="#">
+                                <img src="./images/Unreleased.jpg" class="image" alt="">
+                                <div class="middle">
+                                    <p class="playlistBtn"><i class="fa fa-play" aria-hidden="true"></i></p>
+                                </div>
+                                <p class="playlist-info">Playlist</p>
+                            </a>
+                        </li>
+                        <li class="playlist">
+                            <a class="current-playlist" href="#">
+                                <img src="./images/Unreleased.jpg" class="image" alt="">
+                                <div class="middle">
+                                    <p class="playlistBtn"><i class="fa fa-play" aria-hidden="true"></i></p>
+                                </div>
+                                <p class="playlist-info">Playlist</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="footer-items">
+        <a href="#" class="align-top"><img class="footer-image" src="./images/Catify_Logo_White.png" alt=""></a>
+        <div class="links">
+            <p>Useful links</p>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">github</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <p>© 2018 Catify</p>
+</footer>
+</body>
+</html>

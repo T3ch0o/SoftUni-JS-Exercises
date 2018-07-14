@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a class="nav-image" href="#"><img src="./images/Catify_Logo_White.png" alt=""></a>
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./download.html">download</a></li>
+            <li><a href="./login.html">login</a></li>
+            <li><a href="./register.html">register</a></li>
+            <li><a href="./playlist.html">web player</a></li>
+            <li role="separator" class="divider">|</li>
+            <li><a href="./profile.html"><i class="fa fa-user-o" aria-hidden="true"></i> profile</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="web-player">
+        <section class="side-nav">
+            <nav>
+                <ul>
+                    <li><a href="./profile.html"><i class="fa fa-user-o" aria-hidden="true"></i> profile</a></li>
+                    <li class="separator" role="separator"></li>
+                    <li><a href="./create-playlist.html" class="active"><i class="fa fa-plus-circle" aria-hidden="true"></i> create playlist</a></li>
+                    <li><a href="./manage-playlists.html"><i class="fa fa-cog" aria-hidden="true"></i> manage playlists</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="content-container">
+            <div class="grad-background-create-playlist">
+                <section class="auth-forms">
+                    <div class="catify-form">
+                        <h1 class="form-heading">Edit Playlist</h1>
+                        <div class="line"></div>
+                        <form>
+                            <div class="input-field">
+                                <input class="" type="text" placeholder="Playlist Title">
+                                <p class="has-error">Title must be between 3 and 16 characters.</p>
+                            </div>
+                            <div class="input-field">
+                                <input class="" type="text" placeholder="Playlist Image URL">
+                                <p class="has-error">Invalid image url.</p>
+                            </div>
+                            <div class="input-field">
+                                <input class="" type="text" placeholder="Playlist Tags [not required]">
+                                <p class="has-error">Multiple Tags must be separated with comma and space.</p>
+                            </div>
+                            <div class="submit">
+                                <input class="submitForm" type="submit" value="Edit">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="footer-items">
+        <a href="#" class="align-top"><img class="footer-image" src="./images/Catify_Logo_White.png" alt=""></a>
+        <div class="links">
+            <p>Useful links</p>
+            <ul>
+                <li><a href="#">about</a></li>
+                <li><a href="#">github</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <p>© 2018 Catify</p>
+</footer>
+</body>
+</html>
