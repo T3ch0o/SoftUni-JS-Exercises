@@ -1,0 +1,39 @@
+<div [@fadeIn]="fadeIn" class="category-section" *ngIf="category$">
+  <app-stream-form *ngIf="addStreamComponent" [category]="category$"></app-stream-form>
+  <div class="banner" [ngStyle]="setBanner()">
+    <div class="banner-info">
+      <img src="{{category$.imageUrl}}" alt="">
+      <h1>{{category$.name}}</h1>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="content">
+      <button (click)="loadComponent('stream')" class="btn btn-deep-purple"><i class="fa fa-plus" aria-hidden="true"></i> Add Stream</button>
+      <div class="vote">
+        <button (click)="vote('like')"><i [class]="liked ? 'fa fa-thumbs-up vote-active-like' : 'fa fa-thumbs-up'" aria-hidden="true"></i> {{category$.votes.likes.length}}</button>
+        <button (click)="vote('dislike')"><i [class]="disliked ? 'fa fa-thumbs-down vote-active-dislike' : 'fa fa-thumbs-down'" aria-hidden="true"></i> {{category$.votes.dislikes.length}}</button>
+      </div>
+    </div>
+  </div>
+  <section class="streams">
+    <ul [@fadeIn]="fadeIn" *ngIf="streams$">
+      <li class="stream" *ngFor="let stream of streams$">
+        <a routerLink="/browse/stream/{{stream.channel.name}}">
+          <p>{{stream.viewers | formatNumber}} viewers</p>
+          <div><i class="fa fa-circle" aria-hidden="true"></i> Live</div>
+          <img src="{{stream.preview.medium}}" alt="">
+        </a>
+        <div class="creator-profile">
+          <a routerLink="/user/{{stream.creator}}">
+            <img src="{{stream.creatorImagePath}}" alt="">
+          </a>
+          <div>
+            <a routerLink="/browse/stream/{{stream.channel.name}}" class="stream-title">{{stream.channel.status}}</a>
+            <p>Added by: <a routerLink="/user/{{stream.creator}}">{{stream.creator}}</a></p>
+          </div>
+        </div>
+
+      </li>
+    </ul>
+  </section>
+</div>

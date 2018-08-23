@@ -1,0 +1,39 @@
+<header>
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-color">
+  <a class="navbar-brand brand" routerLink="/"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" *ngIf="authService.isAuthenticated()">
+        <a class="nav-link" routerLink="/browse/categories">Browse</a>
+      </li>
+      <li class="nav-item" *ngIf="authService.isAdmin()">
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-flex-icons">
+      <li class="nav-item" *ngIf="!authService.isAuthenticated()">
+        <button (click)="loadComponent('login')" class="nav-link btn btn-deep-purple">Login</button>
+      </li>
+      <li class="nav-item" *ngIf="!authService.isAuthenticated()">
+        <button (click)="loadComponent('register')" class="nav-link btn btn-deep-purple">Register</button>
+      </li>
+      <li>
+        <button class="dropdown" *ngIf="authService.isAuthenticated()" [matMenuTriggerFor]="menu" >
+          <img src="{{authService.currentUser.imageUrl}}">
+          <span>{{authService.currentUser.username}}</span> <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+        <mat-menu #menu="matMenu" [overlapTrigger]="false">
+          <button (click)="loadComponent('users')" mat-menu-item><i class="fa fa-users" aria-hidden="true"></i> Users</button>
+          <button (click)="loadComponent('category')" *ngIf="authService.isAdmin()" mat-menu-item><i class="fa fa-book" aria-hidden="true"></i> Add Category</button>
+          <a routerLink="/user/settings" mat-menu-item><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
+          <button mat-menu-item (click)="logout()"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</button>
+        </mat-menu>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>

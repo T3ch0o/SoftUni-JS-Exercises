@@ -1,0 +1,37 @@
+<div class="settings">
+  <h1>Settings</h1>
+  <div [@fadeIn]="fadeIn" class="content" *ngIf="user$">
+    <div class="profile-picture">
+      <h4>Profile Picture</h4>
+      <form [formGroup]="userForm" (submit)="onSubmit()">
+        <div class="form">
+          <img class="profile-image" src="{{user$.imageUrl}}" alt="">
+          <mat-form-field>
+            <input matInput placeholder="Image Url" formControlName="imageUrl">
+            <mat-error *ngIf="imageUrl.hasError('required') && imageUrl.touched">
+              File Url: JPEG, PNG, GIF (max size 256x256)
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <h4>Profile Banner</h4>
+        <div class="form">
+          <div class="banner-image" [ngStyle]="setBackground()" alt="">
+          </div>
+          <mat-form-field>
+            <input matInput placeholder="Banner Url" formControlName="bannerUrl">
+            <mat-error *ngIf="bannerUrl.hasError('required') && bannerUrl.touched">
+              File Url: JPEG, PNG, GIF (recommended 1200 x 380)
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <h4>Profile Biography</h4>
+        <div class="form" *ngIf="user$">
+          <textarea id="biography" formControlName="biography"></textarea>
+          <div class="submit-info">
+            <input type="submit" class="btn btn-deep-purple" value="Save changes">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

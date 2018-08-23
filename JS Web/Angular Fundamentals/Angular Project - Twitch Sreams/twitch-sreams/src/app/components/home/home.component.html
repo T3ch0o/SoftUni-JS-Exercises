@@ -1,0 +1,106 @@
+<main>
+  <app-login-form *ngIf="loginComponent"></app-login-form>
+  <app-register-form *ngIf="registerComponent"></app-register-form>
+  <!--Section: Main info-->
+  <section [@fadeIn]="fadeIn" class="background-section">
+    <div class="position">
+      <div class="carousel">
+        <div id="carousel-example-2" class="carousel slide carousel-fade">
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div >
+              <div class="view">
+                <iframe [@fadeIn]="fadeIn" *ngIf="currentStreams[0]" [src]="currentStream | safe" allowfullscreen="true" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <div class="streams">
+            <ul [@fadeIn]="fadeIn" *ngIf="currentStreams[0]">
+                <li (click)="changeCurrentStream(stream.channel.name)" *ngFor="let stream of currentStreams">
+                  <div class="twitch-stream" >
+                    <div class="viewers">
+                      <span><i class="fa fa-circle" aria-hidden="true"></i></span> {{stream.viewers | formatNumber}}
+                    </div>
+                    <img class="stream" src="{{stream.preview.medium}}" alt="">
+                  </div>
+                  <div class="current-stream">
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Section: Main features & Quick Start-->
+  <div class="container">
+    <hr class="my-5">
+    <section>
+
+      <div class="background-h2">
+        <h2 class="my-5 h3 text-center">Top rated category</h2>
+      </div>
+
+      <!--First row-->
+      <div class="row features-small mb-5 mt-3 wow fadeIn">
+
+        <!--First column-->
+        <div class="col-md-4">
+          <!--First row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Free for personal and commercial use</h6>
+              <p class="grey-text">Here you can add your favorite streamers and share it with your friends.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/First row-->
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-4 flex-center">
+          <div class="top" *ngIf="category$">
+            <div class="category">
+              <a routerLink="/browse/category/{{category$.id}}">
+                <div class="hover">
+                  <figure><img src="{{category$.imageUrl}}" /></figure>
+                </div>
+                <p>{{category$.name}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--/Second column-->
+
+        <!--Third column-->
+        <div class="col-md-4 mt-2">
+          <!--First row-->
+          <div class="row">
+            <div class="col-2">
+              <i class="fa fa-check-circle fa-2x indigo-text"></i>
+            </div>
+            <div class="col-10">
+              <h6 class="feature-title">Communicate with people</h6>
+              <p class="grey-text">Add some friends to your friend list and immediately start the conversation.
+              </p>
+              <div style="height:15px"></div>
+            </div>
+          </div>
+          <!--/First row-->
+
+        </div>
+        <!--/Third column-->
+
+      </div>
+      <!--/First row-->
+
+    </section>
+  </div>
+</main>
+<!--Main layout-->

@@ -1,0 +1,15 @@
+<div>
+  <ul [@fadeIn]="fadeIn" class="categories" *ngIf="categories$">
+    <li *ngFor="let category of categories$ | async; let i = index">
+      <div class="category">
+        <a routerLink="/browse/category/{{category.id}}">
+          <div class="hover">
+            <figure><img src="{{category.imageUrl}}" /></figure>
+          </div>
+          <p>{{category.name}}</p>
+        </a>
+      </div>
+      <button *ngIf="authService.isAdmin()" class="btn btn-deep-purple" (click)="deleteCategory(category.id, i)">Delete</button>
+    </li>
+  </ul>
+</div>

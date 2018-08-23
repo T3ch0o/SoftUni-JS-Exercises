@@ -1,0 +1,42 @@
+<div class="sidebar fixed-top">
+  <p class="profile-header">Profile</p>
+  <div class="profile">
+    <img src="{{authService.currentUser.imageUrl}}" alt="">
+    <div class="info">
+      <a routerLink="/profile">{{authService.currentUser.username}}</a>
+      <p>{{authService.currentUser.isAdmin ? 'Administrator' : 'User'}}</p>
+      <p class="user-status">
+        <i class="fa fa-circle"></i>
+        <span>Online</span>
+      </p>
+    </div>
+  </div>
+  <div class="sidebar-search">
+    <div>
+      <div class="input-group">
+        <input (input)="search($event.target.value)" type="text" class="form-control search-menu" placeholder="Search...">
+        <div class="input-group-append">
+          <span class="input-group-text">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-friends">
+    <p class="header-menu">
+      <span>Friends</span>
+    </p>
+      <ul [@fadeIn]="fadeIn" *ngIf="users$">
+        <perfect-scrollbar style="max-height: 950px;" [config]="config">
+        <li *ngFor="let user of users$ | async | filterUsers:'friends' | search:'username':query">
+          <button (click)="loadComponent('chat', user.username)" class="friend"><img class="friend-image" src="{{user.imageUrl}}" alt=""> {{user.username}}</button>
+        </li>
+        </perfect-scrollbar>
+      </ul>
+  </div>
+</div>
+
+<div class="right-side">
+  <router-outlet></router-outlet>
+</div>

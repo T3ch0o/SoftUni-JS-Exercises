@@ -1,0 +1,14 @@
+<div>
+  <ng-progress [min]="8" [max]="100" [speed]="200"  [trickleSpeed]="250"
+               [thick]="false" [meteor]="true" [spinner]="false"
+               [color]="'white'" [ease]="'linear'"></ng-progress>
+  <app-header></app-header>
+  <div>
+    <app-category-form *ngIf="addCategoryComponent"></app-category-form>
+    <app-users *ngIf="usersComponent"></app-users>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+    <app-user-chat *ngIf="chatComponent" [username]="username"></app-user-chat>
+  </div>
+</div>

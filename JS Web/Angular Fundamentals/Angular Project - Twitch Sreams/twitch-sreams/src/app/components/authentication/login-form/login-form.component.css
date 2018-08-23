@@ -1,0 +1,51 @@
+.form-authentication {
+  width: 450px;
+  margin: 10% auto;
+  background-color: #201c2b;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+mat-icon {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold !important;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+i {
+  margin-right: 5px;
+  color: #543ca4;
+}
+
+.submit {
+  padding: 5px !important;
+  margin: 10px 0 0 0 !important;
+}
+
+.my-5 {
+  margin-bottom: 10px !important;
+  margin-top: -3px !important;
+}
+
+i.fa-times {
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+i.fa-times:hover {
+  color: #7946d8;
+}

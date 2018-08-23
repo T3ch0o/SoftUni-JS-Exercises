@@ -1,0 +1,16 @@
+<div class="background" (click)="onCloseForm($event)">
+  <div class="form-stream">
+    <i class="fa fa-times" aria-hidden="true"></i>
+    <h2><i class="fa fa-twitch" aria-hidden="true"></i> Add Stream</h2>
+    <hr class="my-5 deep-purple darken-1">
+    <form [formGroup]="addStreamForm" (submit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Channel Name" formControlName="channelName">
+        <mat-error *ngIf="channelName.hasError('required') && channelName.touched">
+          You can't add stream without Channel Name.
+        </mat-error>
+      </mat-form-field>
+      <input [disabled]="addStreamForm.invalid" type="submit" class="submit btn btn-deep-purple" value="Add Stream">
+    </form>
+  </div>
+</div>

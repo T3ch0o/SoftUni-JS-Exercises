@@ -1,0 +1,165 @@
+.banner {
+  width: 100%;
+  height: 250px;
+  color: white;
+  position: relative;
+}
+
+.banner-info {
+  display: flex;
+  position: absolute;
+  bottom: -50px;
+  left: 40px;
+}
+
+.banner-info img {
+  width: 100px;
+  height: 140px;
+  border: 1px solid white;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 60px;
+  background-color: #201c2b;
+  border-bottom: 1px solid #2c2541;
+}
+
+.vote {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.vote button {
+  border: none;
+  background: none;
+  font-size: 25px;
+  cursor: pointer;
+  color: #4b4b4b;
+}
+
+.vote i.fa-thumbs-up:hover {
+  color: #004dc1;
+}
+
+.vote i.fa-thumbs-down:hover {
+  color: #b40022;
+}
+
+.vote-active-like {
+  color: #004dc1;
+}
+
+.vote-active-dislike {
+  color: #b40022;
+}
+
+button:focus {
+  outline: 0 !important;
+}
+
+.vote button {
+  margin-right: 5px;
+}
+
+.content {
+  padding-left: 155px;
+}
+
+.btn {
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.category-section {
+  position: relative;
+  min-height: 1305px;
+}
+
+.streams {
+  margin-top: 30px;
+}
+
+.streams > ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.streams li {
+  margin: 15px 10px;
+}
+
+.creator-profile {
+  display: flex;
+  color: white;
+  margin-top: 10px;
+}
+
+.creator-profile img {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.stream-title {
+  width: 260px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: white !important;
+}
+
+.creator-profile a {
+  text-decoration: none;
+  color: #bfbfbf;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.stream {
+  background-color: rgba(28, 29, 28, 0.1);
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.creator-profile p {
+  margin-bottom: 0;
+}
+
+.creator-profile a:hover {
+  text-decoration: underline;
+  color: #b19dd8;
+}
+
+.stream > a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.stream > a > div {
+  position: absolute;
+  padding: 0 20px;
+  margin: 10px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.fa-circle {
+  font-size: 15px;
+  color: red;
+}
+
+.stream > a > p {
+  position: absolute;
+  bottom: -90px;
+  font-weight: bold;
+  margin: 10px;
+}

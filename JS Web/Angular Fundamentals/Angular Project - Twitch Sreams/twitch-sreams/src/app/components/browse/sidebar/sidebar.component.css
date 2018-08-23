@@ -1,0 +1,142 @@
+.sidebar {
+  margin-top: 66px;
+  width: 256px;
+  background: rgba(29, 29, 29, 0.9);
+  background: radial-gradient(ellipse at center, rgba(29, 29, 29, 0.9) 0%, rgba(29, 29, 29,0.9) 100%), url("../../../../assets/images/bg1.jpg");
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  color: white;
+}
+
+.profile-header {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-hr {
+  background-color: white;
+}
+
+.profile {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  text-transform: capitalize;
+}
+
+.info a {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+i {
+  color: #5cb85c;
+  font-size: 8px;
+  margin-right: 4px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1px;
+  align-self: flex-start;
+  font-size: 14px;
+  color: #a8a8a8;
+}
+
+.sidebar-search {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+i.fa-search {
+  color: #a8a8a8;
+  font-size: 18px;
+}
+
+.form-control {
+  background-color: rgba(189, 189, 189, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.input-group-text {
+  background-color: rgba(189, 189, 189, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+input:focus {
+  outline-style:none;
+  box-shadow:none;
+  border-color:rgba(255, 255, 255, 0.2);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar-friends {
+  padding: 15px;
+}
+
+.header-menu > span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #6c7b88;
+}
+
+.friend {
+  background: none;
+  width: 100%;
+  border: none;
+  padding: 10px 10px;
+  text-align: left;
+  color: white;
+}
+
+.friend:focus {
+  outline: 0;
+}
+
+.friend:hover {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.friend-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.right-side {
+  padding: 66px 0 0 256px;
+}

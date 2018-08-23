@@ -1,0 +1,28 @@
+<div class="chat">
+  <div class="chat-title">
+    <p>Site chat</p>
+  </div>
+  <div class="chat-content">
+    <perfect-scrollbar style="max-height: 1050px;" [config]="config">
+    <div class="welcome-message">
+      Welcome to the chat room!
+    </div>
+    <div *ngIf="chat">
+      <div class="chat-line" *ngFor="let m of chat">
+        <a routerLink="/user/{{m.sender}}">{{m.sender}}</a>
+        <span>: </span>
+        <span>{{m.content}}</span>
+      </div>
+    </div>
+    </perfect-scrollbar>
+  </div>
+  <div class="chat-container">
+    <form [formGroup]="messageForm" class="chat-message" (submit)="sendMessage()">
+      <input type="text" placeholder="Send a message" formControlName="message">
+      <div>
+        <button type="button" class="options"><i class="fa fa-cog" aria-hidden="true"></i></button>
+        <input type="submit" class="btn btn-deep-purple" value="Chat">
+      </div>
+    </form>
+  </div>
+</div>

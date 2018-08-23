@@ -1,0 +1,30 @@
+<div class="line">
+  <div>
+    <button [class]="currentChat ? 'active' : ''" (click)="switchComponent('SiteChat')">Site Chat</button>
+    <button [class]="!currentChat ? 'active' : ''" (click)="switchComponent('StreamChat')">Stream Chat</button>
+  </div>
+</div>
+<div class="content">
+  <div class="stream" [@fadeIn]="fadeIn" *ngIf="stream$">
+    <div class="fix">
+      <iframe [src]="'https://player.twitch.tv/?channel=' + channelName | safe" allowfullscreen="true" scrolling="no"></iframe>
+      <div class="stream-info">
+        <div class="left-side-info">
+          <img src="{{category$.imageUrl}}" alt="">
+          <div>
+            <p>{{stream$.streamTitle}}</p>
+            <p><i class="fa fa-gamepad" aria-hidden="true"></i> <a routerLink="/browse/category/{{category$.id}}">{{category$.name}}</a></p>
+          </div>
+        </div>
+        <div class="right-side-info">
+          <p class="viewers"><i class="fa fa-user" aria-hidden="true"></i> {{stream$.viewers | formatNumber}}</p>
+          <p class="views"><i class="fa fa-eye" aria-hidden="true"></i> {{stream$.channel.views | formatNumber}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stream-chat" *ngIf="stream$">
+    <app-stream-chat [streamId]="stream$._id" *ngIf="currentChat"></app-stream-chat>
+    <iframe *ngIf="!currentChat" [src]="'https://www.twitch.tv/embed/' + channelName + '/chat?darkpopout' | safe" frameborder="0" scrolling="no"></iframe>
+  </div>
+</div>

@@ -1,0 +1,62 @@
+.navbar-color {
+  background-color: #392e5c;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.brand {
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-left: 10px;
+}
+
+.btn {
+  padding: 5px 15px !important;
+}
+
+header {
+  position: relative;
+}
+
+.dropdown {
+  background: none;
+  width: 200px;
+  border: none;
+  padding: 10px 0 10px 10px;
+}
+
+.dropdown:focus {
+  outline: 0;
+}
+
+.dropdown:hover {
+  background-color: #4c3d7c;
+  cursor: pointer;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+span {
+  float: left;
+  color: white;
+  font-size: 13px;
+}
+
+.fa-caret-down {
+  float: right;
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+i {
+  margin-right: 5px;
+}

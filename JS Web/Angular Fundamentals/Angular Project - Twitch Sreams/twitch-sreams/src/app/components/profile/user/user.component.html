@@ -1,0 +1,17 @@
+<div [@fadeIn]="fadeIn" class="category-section" *ngIf="user$">
+  <div class="banner" [ngStyle]="setBanner(user$.bannerUrl)">
+    <div class="banner-info">
+      <img src="{{user$.imageUrl}}" alt="">
+      <h1>{{user$.username}}</h1>
+    </div>
+  </div>
+  <div class="bar">
+    <div class="content">
+      <button class="btn btn-deep-purple"><i class="fa fa-plus" aria-hidden="true"></i> Add friend</button>
+    </div>
+  </div>
+  <section class="bio container">
+    <h1>Biography</h1>
+    {{user$.biography}}
+  </section>
+</div>

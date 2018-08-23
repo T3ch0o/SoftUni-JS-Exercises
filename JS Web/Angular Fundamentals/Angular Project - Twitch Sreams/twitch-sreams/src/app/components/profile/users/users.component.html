@@ -1,0 +1,17 @@
+<div class="background" (click)="onCloseForm($event)">
+  <div class="users">
+    <i class="fa fa-times" aria-hidden="true"></i>
+    <h2><i class="fa fa-twitch" aria-hidden="true"></i> All Users</h2>
+    <hr class="my-5 deep-purple darken-1">
+    <div *ngIf="users$">
+      <ul>
+        <perfect-scrollbar style="max-height: 300px;" [config]="config">
+          <li class="user" *ngFor="let user of users$ | filterUsers:'users'">
+            <a routerLink="/user/{{user.username}}"><img class="user-image" src="{{user.imageUrl}}" alt=""> {{user.username}}</a>
+            <button (click)="addToFriends(user.username)" class="btn btn-deep-purple">{{userIsFriend[user.username] ? 'remove friend' : 'add friend'}}</button>
+          </li>
+        </perfect-scrollbar>
+      </ul>
+    </div>
+  </div>
+</div>

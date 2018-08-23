@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #19171c !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Arial', sans-serif; }
+
+.mat-form-field-underline {
+  background-color: #ffffff !important;
+}
+
+.mat-form-field-underline.mat-disabled {
+  background-color: transparent !important;
+}
+
+label {
+  color: white !important;
+}
+
+.mat-menu-item {
+  color: white;
+}
+
+.mat-menu-item:focus {
+  outline: 0;
+}
+
+.mat-menu-item:hover {
+  background-color: #392e5c !important;
+}
+
+.mat-menu-panel {
+  margin-top: 8px;
+  background-color: #201c2b;
+  width: 200px;
+}
+
+perfect-scrollbar > .ps.ps--scrolling-y > .ps__rail-y,
+perfect-scrollbar > .ps.ps--scrolling-x > .ps__rail-x {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+perfect-scrollbar > .ps.ps--active-y > .ps__rail-y:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.background {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #201c2b;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #201c2b;
+}
