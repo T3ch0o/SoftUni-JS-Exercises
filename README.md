@@ -4,7 +4,7 @@
 <p>
 
 ## Courses: [ExpressJS Fundamentals](https://softuni.bg/trainings/1981/expressjs-fundamentals-may-2018) & [ReactJS Fundamentals](https://softuni.bg/trainings/2022/reactjs-fundamentals-june-2018/internal) & [Angular 2 Fundamentals](https://softuni.bg/trainings/2037/angular-fundamentals-july-2018/internal)
-SoftUni courses JS Web: All tasks with their solutions.
+SoftUni course JS Web: All tasks with their solutions.
 
 ## ExpressJS course content:
 - Introduction to HTTP and Node.JS
